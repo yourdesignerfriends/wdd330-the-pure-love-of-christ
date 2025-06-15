@@ -130,6 +130,7 @@ footer section {
 }
 .links a {
   text-decoration: none;
+  color: var(--accent2-color-black);
 }
 .links li {
   margin-bottom: .5rem;
