@@ -10,85 +10,35 @@
     <meta property="og:title" content="The Pure Love of Christ">
     <meta property="og:description" content="The Pure Love of Christ - Is based on the need we have, as disciples of Jesus Christ, to serve others.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://raw.githubusercontent.com/yourdesignerfriends/wdd330-the-pure-love-of-christ/refs/heads/main/src/public/images/hero-large.webp">
+    <meta property="og:image" content="https://raw.githubusercontent.com/yourdesignerfriends/wdd330-the-pure-love-of-christ/refs/heads/main/src/images/hero-large.webp">
     <meta property="og:url" content="">
     <meta property="fb:app_id" content="471826709228983">
 
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="/favicon.ico">
 
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/larger.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
   <body>
-    <header>
-        <img src="public/images/logo.webp" alt="Logo" width="300" height="300">
-        <button type="button" id="menu"></button>
-        <img src="public/images/dark-mode.svg" alt="dark mode" id="darkBtn">
-    </header>     
-    <nav class="navigation">    
-        <ul>
-            <li><a href="index.html" title="Home">Home</a></li>
-            <li><a href="challenges/challenges.html" title="Challenges">Challenges</a></li>
-            <li><a href="about/about.html" title="About">About</a></li>
-        </ul>
-    </nav>
+    <header id="header"></header>     
+    <nav id="nav" class="navigation"></nav>
       <main>
         <div class="hero">
             <picture>
-                <source srcset="public/images/hero-large.webp" media="(min-width: 960px)" class="hero-image">
-                <source srcset="public/images/hero-medium.webp" media="(min-width: 760px)" class="hero-image">
-                <img src="public/images/hero-small.webp" alt="Love of Christ" width="560" height="420" class="hero-image">
+                <source srcset="/images/hero-large.webp" media="(min-width: 960px)" class="hero-image">
+                <source srcset="/images/hero-medium.webp" media="(min-width: 760px)" class="hero-image">
+                <img src="/images/hero-small.webp" alt="Love of Christ" width="560" height="420" class="hero-image">
             </picture>
             <div class="hero-label">
                 <h1>The Pure<br>Love of Christ</h1>
             </div>
         </div>
+        <footer id="footer"></footer>
       </main>
-    <footer>
-        <div class="footer-container">
-            <div>
-                <section>
-                    <h4>Social Media</h4>
-                    <div class="social">
-                        <a href="#" aria-label="facebook">
-                            <img src="public/images/facebook.svg" alt="Facebook" width="800" height="800">
-                        </a>
-                        <a href="#" aria-label="youtube">
-                            <img src="public/images/youtube.svg" alt="youtube" width="800" height="800">
-                        </a>
-                        <a href="#" aria-label="instagram">
-                            <img src="public/images/instagram.svg" alt="instagram" width="800" height="800">
-                        </a>
-                    </div>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <h4>Quick Links</h4>
-                    <nav>    
-                        <ul class="links">
-                            <li><a href="index.html" title="Home">Home</a></li>
-                            <li><a href="challenges/challenges.html" title="Challenges">Challenges</a></li>
-                            <li><a href="about/about.html" title="About">About</a></li>
-                        </ul>
-                    </nav>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <h4>About This Project</h4>
-                    <p>BYU Idaho<br>WDD 330 <br>Created by: Analina Del Vecchio<br></p>
-                </section>
-            </div>
-        </div>
-        <p id="copyright"></p>
-    </footer>
-    <script type="module" src="scripts/hamburgerMenu.js"></script>
-    <script type="module" src="scripts/darkMode.js"></script>
-    <script type="module" src="scripts/copyright.js"></script>
+    <script type="module" src="/scripts/main.js"></script>
   </body>
 </html>
