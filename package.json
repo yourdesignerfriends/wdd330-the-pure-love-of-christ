@@ -17,5 +17,8 @@
     "globals": "^16.2.0",
     "rollup": "^4.43.0",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
