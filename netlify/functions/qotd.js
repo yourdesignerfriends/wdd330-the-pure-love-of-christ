@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 export const handler = async (event, context) => {
   const apiKey = process.env.FAVQS_API_KEY;
   const response = await fetch('https://favqs.com/api/qotd', {
