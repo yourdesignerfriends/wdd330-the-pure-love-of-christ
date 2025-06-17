@@ -2,6 +2,8 @@
 
 ![App Icon](src/public/images/logo.webp)
 
+<img src="src/public/images/logo.webp" alt="App Icon" width="120"/>
+
 **BYU Idaho**  
 *WDD 330 Front End Development II*  
 **Student:** Analina Del Vecchio Madriz (Nielsen)  
