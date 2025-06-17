@@ -287,3 +287,26 @@ body.my-reflections-page.dark-mode p.subtitle {
 .saved-challenge {
   background: var(--accent1-color-white);
 }
+/* --------------------- CSS ANIMATION --------------------- */
+@keyframes spin {
+  to { transform: rotate(360deg);}
+}
+header img:hover {
+  animation: spin 0.7s linear;
+  cursor: pointer;
+}
+.verse-of-the-day,
+.saved-challenge,
+.challenge-of-the-day {
+  transition: box-shadow 0.4s;
+}
+.verse-of-the-day:hover,
+.saved-challenge:hover,
+.challenge-of-the-day:hover {
+  box-shadow: 0 0 24px 0 var(--accent2-color-black);
+}
+body.dark-mode .verse-of-the-day:hover,
+body.dark-mode .saved-challenge:hover,
+body.dark-mode .challenge-of-the-day:hover {
+  box-shadow: 0 0 24px 0 var(--accent1-color-white);
+}
