@@ -1,7 +1,5 @@
 # The Pure Love of Christ
 
-![App Icon](src/public/images/logo.webp)
-
 <img src="src/public/images/logo.webp" alt="App Icon" width="120"/>
 
 **BYU Idaho**  
