@@ -16,5 +16,4 @@ async function loadQuoteOfTheDay() {
   }
 }
 
-// Ejecuta automáticamente al cargar el módulo
 document.addEventListener('DOMContentLoaded', loadQuoteOfTheDay);
