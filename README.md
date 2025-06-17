@@ -1,4 +1,6 @@
-# The Pure Love of Christ ❤️
+# The Pure Love of Christ
+
+![App Icon](src/public/images/logo.webp)
 
 **BYU Idaho**  
 *WDD 330 Front End Development II*  
@@ -98,4 +100,6 @@ I love this font because it has different styles and is versatile to work with.
 
 A heart ❤️ surrounded by a “C”. The “C” symbolizes charity and the name of Christ, while the heart is a universal symbol of love.
 
-![App Icon](src/public/images/logo.webp)
+## License
+
+This project is licensed under the MIT License © 2025 Analina Nielsen
