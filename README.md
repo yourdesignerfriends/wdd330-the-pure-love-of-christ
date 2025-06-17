@@ -98,4 +98,4 @@ I love this font because it has different styles and is versatile to work with.
 
 A heart ❤️ surrounded by a “C”. The “C” symbolizes charity and the name of Christ, while the heart is a universal symbol of love.
 
-![App Icon](src/assets/c-heart.png)
+![App Icon](src/public/images/logo.webp)
