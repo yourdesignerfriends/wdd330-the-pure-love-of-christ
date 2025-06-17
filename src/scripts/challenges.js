@@ -19,6 +19,16 @@ async function loadCharityChallenge() {
 }
 
 function acceptChallenge() {
+  let savedChallenges = JSON.parse(localStorage.getItem('myChallenges')) || [];
+  // Evita duplicados por key
+  if (!savedChallenges.some(ch => ch.key === currentChallenge.key)) {
+    savedChallenges.push({
+      ...currentChallenge,
+      acceptedAt: new Date().toISOString(),
+      reflection: ""
+    });
+    localStorage.setItem('myChallenges', JSON.stringify(savedChallenges));
+  }
   document.getElementById('challenge').textContent = "Great! Enjoy your challenge: " + currentChallenge.activity;
   document.getElementById('accept-challenge').style.display = 'none';
   document.getElementById('reject-challenge').style.display = 'none';
