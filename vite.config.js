@@ -10,7 +10,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "src/index.html"),
         challenges: resolve(__dirname, "src/challenges/index.html"),
-        about: resolve(__dirname, "src/about/index.html"),
+        myReflections: resolve(__dirname, "src/my-reflections/index.html"),
       },
     },
   },
