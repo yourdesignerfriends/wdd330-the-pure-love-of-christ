@@ -11,7 +11,7 @@ async function loadQuoteOfTheDay() {
     document.getElementById('verse').textContent = quote.body;
     document.getElementById('reference').textContent = `— ${quote.author}`;
   } catch (error) {
-    document.getElementById('verse').textContent = "No se pudo cargar la cita.";
+    document.getElementById('verse').textContent = "The quote could not be loaded";
     document.getElementById('reference').textContent = "";
   }
 }

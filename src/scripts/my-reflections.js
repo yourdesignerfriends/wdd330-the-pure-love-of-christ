@@ -45,7 +45,7 @@ function loadMyChallenges() {
             if (confirm("Are you sure you want to delete this challenge?")) {
                 challenges.splice(idx, 1);
                 localStorage.setItem('myChallenges', JSON.stringify(challenges));
-                loadMyChallenges(); // Recarga la lista
+                loadMyChallenges();
             }
         });
     });

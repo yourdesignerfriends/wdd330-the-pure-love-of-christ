@@ -20,7 +20,7 @@ async function loadCharityChallenge() {
 
 function acceptChallenge() {
   let savedChallenges = JSON.parse(localStorage.getItem('myChallenges')) || [];
-  // Evita duplicados por key
+  // Avoid duplicates by key
   if (!savedChallenges.some(ch => ch.key === currentChallenge.key)) {
     savedChallenges.push({
       ...currentChallenge,

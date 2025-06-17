@@ -157,7 +157,9 @@ footer section {
 .dark-mode .links a,
 .dark-mode .hero-label h1,
 .dark-mode .btn-container h2,
-.dark-mode .btn-container p {
+.dark-mode .btn-container p,
+body.my-reflections-page.dark-mode h2,
+body.my-reflections-page.dark-mode p.subtitle {
     color: var(--accent1-color-white);
 }
 .dark-mode,
@@ -281,4 +283,7 @@ footer section {
 }
 .saved-challenge button.discard-reflection {
   background: var(--primary-color-red);
+}
+.saved-challenge {
+  background: var(--accent1-color-white);
 }
